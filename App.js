@@ -1,16 +1,13 @@
-import React from 'react';
-import {View, Text} from 'react-native';
-
-import HomePage from './src/pages/HomePage'
+import React, {useState} from 'react';
+import {View, Stylesheet, Text, Button} from 'react-native';
 
 const App = () => {
 
-  return (
+  return(
+    <View>
 
-    <HomePage />
-
-  );
-
-}
+    </View>
+  )
+};
 
 export default App;
