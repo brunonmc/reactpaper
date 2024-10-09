@@ -10,4 +10,12 @@ const App = () => {
   )
 };
 
+cont styles = Stylesheet.create({
+  container:{
+    flex:1,
+    backgroundCollor: '#fff'
+  }
+})
+
+
 export default App;
